@@ -1,0 +1,31 @@
+{
+    "name": "node-role-based-authorization-api",
+    "version": "1.0.0",
+    "description": "Node.js Role Based Authorization API",
+    "license": "MIT",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@sendgrid/mail": "^6.4.0",
+        "blockchain.info": "^2.12.1",
+        "body-parser": "^1.19.0",
+        "coinbase-commerce-node": "^1.0.0",
+        "cors": "^2.8.5",
+        "express": "^4.16.4",
+        "express-jwt": "^5.3.1",
+        "http": "0.0.0",
+        "jsonwebtoken": "^8.4.0",
+        "mysql": "^2.17.1",
+        "password-hash": "^1.2.2",
+        "promise-mysql": "^3.3.2",
+        "rootpath": "^0.1.2",
+        "sendgrid": "^5.2.3",
+        "socket.io": "^2.2.0",
+        "util": "^0.12.0",
+        "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.6"
+    }
+}
