@@ -30,7 +30,7 @@ app.use('/accounting', require('./accounting/acc.controller'));
 
 app.get('/', (req, res) => {
 
-    res.status(200).send("Wellcome To InteTra Backend Server")
+    res.status(200).send("Wellcome To Miluxas Core Backend Server")
     });
 // global error handler
 app.use(errorHandler);
